@@ -8,9 +8,9 @@ return document.getElementById('nested').querySelector('div.target');
 }
 
 function increaseRankBy(n) {
-var rankIncrease = document.querySelectorAll('ul.ranked-list');
-  for (let i = 0; i < rankIncrease.length; i++){
-    rankIncrease[i].innerHTML = parseInt(rankIncrease[i].innerHTML) + n;
+var ranks = document.querySelectorAll('ul.ranked-list');
+  for (let i = 0; i < ranks.length; i++){
+    ranks[i].innerHTML = parseInt(ranks[i].innerHTML) + n;
   }
 
 }
