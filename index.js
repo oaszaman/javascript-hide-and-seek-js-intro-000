@@ -16,6 +16,6 @@ var rankIncrease = document.getElementById('app').querySelectorAll('ul.ranked-li
 }
 
 function deepestChild() {
-
-
+  var drag = document.getElementById('grand-node').querySelectorAll('div');
+  return drag[drag.length-1];
 }
