@@ -10,7 +10,7 @@ return document.getElementById('nested').querySelector('div.target');
 function increaseRankBy(n) {
 var rankIncrease = document.getElementById('app').querySelectorAll('ul.ranked-list');
   for (let i = 0; i < rankIncrease.length; i++){
-    rankIncrease[i].innerHTML = ((parseInt(rankIncrease[i].innerHTML)) + n);
+    rankIncrease[i].innerHTML = parseInt(rankIncrease[i].innerHTML) + n;
   }
 
 }
